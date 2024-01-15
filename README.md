@@ -6,7 +6,7 @@ Author: Kennedy Richard S. Guerra ([kennedyrichard.com](https://kennedyrichard.c
 
 ## Overview
 
-This [software design document](https://en.wikipedia.org/wiki/Software_design_description) was created to help manage the development of Nodezator for both its maintainer (me, Kennedy R. S. Guerra) and other developers who desire to contribute code to the project. It aims to do that by offering detailed information on Nodezator's design, including its definition, goals, current and planned features/behaviour and also brief analyses of alternative software that offer further insight into design decisions made for Nodezator.
+This [software design document](https://en.wikipedia.org/wiki/Software_design_description) was created to help manage the development of Nodezator ([GitHub repo](https://github.com/IndiePython/nodezator) | [website](https://nodezator.com)) for both its maintainer (me, Kennedy R. S. Guerra) and other developers who desire to contribute code to the project. It aims to do that by offering detailed information on Nodezator's design, including its definition, goals, current and planned features/behaviour and also brief analyses of alternative software that offer further insight into design decisions made for Nodezator.
 
 
 ## Stakeholders
@@ -46,7 +46,8 @@ In conclusion, in order to be successful, this design document must effectively 
 
 ## Table of contents
 
-1. [Nodezator and its goals]()
+1. [Nodezator definition, usage and goals](ch-nodezator-definition-usage-goals.md)
+1. [How Nodezator was designed]()
 1. [Current behaviour and features]()
 1. [Timeline and planned features]()
 1. [Alternatives to Nodezator]()
