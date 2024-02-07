@@ -318,7 +318,7 @@ In the specific case of Nodezator, at the current version 1.4.5, we use the Pyth
 
 In fact, the usage of multimedia libraries is a measure so crucial to this goal that it could even be considered a goal itself. We didn't list it as a goal solely for the sake of brevity/redundancy. Nonetheless, no matter which shape Nodezator takes in the future and whether it replaces the graphics backend or not, we must invariably end up adopting a multimedia library.
 
-Purposefully, this multimedia library chosen should always be one that could also be used to make games even though it is only being used for Nodezator's interface. The reason has to do with the close relationship Nodezator has with game development and related workflows. Such close ties to gamedev that Nodezator has are not solely for the sake of fun (although this alone would already be a legitimate reason), but also paves the way to a more successful future for all kinds of computer/programming workflows performed with Nodezator, regardless of whether they are related to gamedev or not. We'll properly explain and delve deeper into this in another section, when discussing another goal that is also related to these notions.
+Purposefully, this multimedia library chosen should always be one that could also be used to make games even though it is only being used for Nodezator's interface. The reason has to do with the close relationship Nodezator has with game development and related workflows. Such close ties to gamedev that Nodezator has are not solely for the sake of fun (although this alone would already be a legitimate reason), but also paves the way to a more successful future for all kinds of computer/programming workflows performed with Nodezator, regardless of whether they are related to gamedev or not. We'll properly explain and delve deeper into this in a [dedicated chapter](ch-power-gamedev-nodezator-role.md), though we'll very briefly revisit this notion in a future subsection, when discussing another goal that is also related to it.
 
 For the sake of the goal we are discussing now, however (the goal to have a pixel-perfect platform-agnostic interface), we argue that the highly customized nature of games naturally force the multimedia libraries created to develop them to evolve into tools capable of producing such highly customizable interfaces.
 
@@ -355,63 +355,9 @@ This is pretty self-explanatory goal. But since Nodezator is relatively new, not
 
 ### Promote gamedev and related workflows without harming its generalist nature
 
-According to a [wikipedia](https://en.wikipedia.org/wiki/Video_game_development)...
+Understanding this goal requires taking into account several notions/concepts, including the many benefits of being involed with game development and games. Because of that and also the importance of such goal for the future of the Nodezator project, we dedicated an entire chapter to it: [The power of gamedev/games with Python and Nodezator's role](ch-power-gamedev-nodezator-role.md).
 
-> Video game development (sometimes shortened to gamedev) is the process of creating a video game. It is a multidisciplinary practice, involving programming, design, art, audio, user interface, and writing. Each of those may be made up of more specialized skills; art includes 3D modeling of objects, character modeling, animation, visual effects, and so on. Development is supported by project management, production, and quality assurance. Teams can be many hundreds of people, a small group, or even a single person.
-
-Gamedev is an activity that drives innovation and creativity: new systems, new features, new ways of approaching problems, new problems to solve, new challenges to be conceived, many limitations to overcome, new visuals to explore. The many aspects to consider are almost infinite and each of them represent an opportunity to learn and try new things. Additionally, it is fun and entertaining. Even a game developed by a single individual can be a source of fun, socialization and learning, when the players interact with the creator, share ideas or simply the excitement.
-
-The games themselves, also motivate people. They evoke a mix of emotions not limited to fun (though fun is very prevalent). They can be used for entertainment, education and even to convey messages or promote critical thinking and social awareness.
-
-The benefits of gaming are so evident that even systems that are not related to games began adopting features that are characteristic of games, giving rise to the concept of [gamification](https://en.wikipedia.org/wiki/Gamification).
-
-Game development drives the evolution of software, hardware, graphics, programming languages and many aspects of computing.
-
-The video games industry is massive and offers many job opportunities. The skill set needed to develop games and the experience acquired by developing them are valuable in the technology industry as well. According to Chris Bentzel from Boston Dynamics...
-
-> Game developers are also [well-suited to robotics](https://www.inverse.com/innovation/boston-dynamics-chris-bentzel).
-
-The many benefits of being involved with game development and games and the multidisciplinary nature of game development means it enriches the environments that adopt and promote it. That is why we made it a goal of the Nodezator app to promote gamedev and related workflows, with the nonnegotiable condition that such involvement do not harm Nodezator's generalist nature.
-
-In a way, it is actually surprising that the leadership involved with Python development and management doesn't invest more in game-related projects. Granted, the stigma of being an interpreted language certainly plays a big role in people's perception of Python as a language fit for game development. However, in practice, we have a worldwide online community that is constantly making new games with Python, not only with the more famous pygame/pygame-ce library, but many other libraries/frameworks like [Pyglet](https://pyglet.org/), [Arcade](https://api.arcade.academy/en/latest/), [Pyxel](https://github.com/kitao/pyxel), [Panda3D](https://www.panda3d.org/) and [HARFANG®3D](https://www.harfang3d.com/). Most of the creations are small-scoped games or prototypes, but commercial games have also been made and sold in popular game distribution services like Steam, like [SwitchCars](https://store.steampowered.com/app/442210/Switchcars/) and [Super Potato Bruh](https://store.steampowered.com/app/951360/Super_Potato_Bruh/).
-
-If you try using Python to make a game like [God of War](https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)), you are setting yourself up for disappointment, but a game like [Chrono Trigger](https://en.wikipedia.org/wiki/Chrono_Trigger) could be easily done with Python. With pygame/pygame-ce in particular, I'd say one would be able to comfortably make SNES/GBA-style games, and probably also very simple PS1-style 3D games with OpenGL. More advanced 3D games could also be made with other libraries/frameworks like HARFANG and Panda3D.
-
-I'm almost 100% sure that a game like the PS1's Resident Evil(s), Dino Crisis and Chrono Cross could be made with Python. And yet, nobody seems to have made a serious attempt at doing so. You may ask: why should someone do that? The answer is simple: because it would be 100 times more easy with Python. I bet developers back then when the first PS1 games were being made would be overjoyed to have an easy language to work with like Python at their disposal. Today we have Python and more powerful computers but we do not use such tools to the fullest. There's nothing wrong with pursuing more performant technologies for gamedev and projects with more advanced and intense graphics usage, but we can still make deep complex immersive games of large scope with not-so-advanced-but-still-gorgeous graphics.
-
-If we invested time, effort and money in such projects, we'd not only reap the benefits of game development and games for the Python ecosystem, but such benefits would even greater. The benefits we discussed before (innovation, fun, motivation, education, etc.) are general benefits, present regardless of the environment where gamedev/games are promoted. But for gamedev and games with a programming language as the central tool, those benefits would exist in an environment that can have a lot of synergy with them. I use the expression "can have" rather than "have" because I believe such qualities are not inherent to programming language design and usage, but to the leadership and community behind it. In the case of the Python ecosystem however, we can say for certain that we do have an awesome environment that indeed has a lot of synergy with the things that make game development great. That is, innovation, education, learning, sharing ideas, trying new things, etc.
-
-I don't know if there's a name for this kind of game development centered in a programming language, but I like to call it "language-first gamedev". I think "programming-first gamedev" is not a suitable name, because a lot of gamedev already is about programming. But in language-first gamedev the systems are designed to take advantage of the language design and its strengths to promote power, flexibility, versatility and maintainability, rather than sacrifice those for the sake of performance or new features/mechanics. It is a practice rooted in both software design and game design.
-
-In language-first gamedev using Python, in contrast with abusing the performance of a compiled language by writing poorly designed systems to achieve game design goals, we rely on properly designed interpreted code to take advantage of the ease of maintenance and sufficient performance of the interpreted language. Of course, language-first gamedev is a concept that applies to compiled languages as well, with each different language having its own advantages and drawbacks.
-
-In the case of Python, specifically, some advantages that come to mind are:
-
-- free and open-source
-- simpler syntax
-- rapid development
-- code is easy to maintain
-- availability of many libraries
-- large and awesome community (quantity + quality)
-- abundance of learning materials
-- abundance of libraries
-
-The list is not comprehensive, but it gives us a good idea of the advantages of gamedev with Python.
-
-The disadvantage is that we can't use it to make graphics-intensive games. But that still leaves a lot of room for exploration! It is not that Python isn't fit for making games. It all depends on which game you want to make. And for Python, which games can be comfortably made and maintained with it is mostly uncharted territory.
-
-Since a long time, it looks like surprisingly few languages have been spending time/effort/resources into gamedev. The C, C++ and C# languages are, of course, heavily used in gamedev, but it looks to me like they are used more like a tool rather than part of the process. This is something difficult to explain. Let's just say that people grew so accustomed to their usage that they became just a medium for making a game.
-
-If such languages were used in a language-first approach like I described, their role would be more important in gamedev and innovations and other benefits of gamedev achieved with such languages would contribute to the improvement of such languages and their ecosystems. Instead, their intensive usage in gamedev seems to have no effect impact in their ecosystems, except for bragging about their performance. I'm actually under the impression that users of such languages spend more time highlighting the problems of working with them to achieve their game features/mechanics than rejoicing in the languages were used to provide a smooth game development experience. As I said before, it seems these languages are being abused due to their performance rather than being used properly to help design and manage the game systems.
-
-To be fair, this is a problem in Python for gamedev as well, in that people often complain about trying to shape the code to implement their features, rather than understanding the language well enough to be able to properly design the systems to support needed features. So, in part, a lack of proficiency in software design and in the language used are strong factors that prevent language-first gamedev to flourish.
-
-Other languages that have prominent roles in game development, that come to mind, are Javascript (for HTML5 games) and Lua. The ecosystem of the Rust language also seems to be pursuing gamedev more eagerly, considering projects like [Bevy](https://bevyengine.org/). An initiative like this one only highlights the importance of language-first gamedev for programming languages.
-
-Of course, no one can determine which shape the future of language-first gamedev will take, but we can strongly influence that shape in the future. In the Python ecosystem, helped by the simplicity of Python and of the APIs of gamedev libs like pygame/pygame-ce, gamedev is pushed forward spontaneously by the passion of hobbyist/indie developers. Python is uniquely positioned to conquer a prominent spot when it comes to gamedev. Certainly, it cannot be employed for graphics-intensive games, but we can still conquer a great position when it comes to making gorgeous, deep, complex games, whether commercial or not. And benefit the Python ecosystems as a result. If we don't act on it, we risk loosing ground to other languages when it comes to language-first gamedev.
-
-That is why, in the Nodezator project, it is our goal to promote gamedev and related workflows, as long as we don't harm its generalist nature. This way, Nodezator will greatly contribute to and benefit from language-first game development with Python.
-
+In summary, the many benefits of being involved with game development and games and the multidisciplinary nature of game development means it enriches the environments that adopt and promote it. That is why we made it a goal of the Nodezator app to promote gamedev and related workflows, with the nonnegotiable condition that such involvement do not harm Nodezator's generalist nature.
 
 
 ### Promote healthy moderately-paced development focused in simplicity and cleanliness of design

@@ -1,5 +1,5 @@
 
-# Software Design Document for Nodezator
+# Software design document for Nodezator
 
 Author: Kennedy Richard S. Guerra ([kennedyrichard.com](https://kennedyrichard.com) | [@KennedyRichard](https://github.com/KennedyRichard))
 
@@ -7,6 +7,18 @@ Author: Kennedy Richard S. Guerra ([kennedyrichard.com](https://kennedyrichard.c
 ## Overview
 
 This [software design document](https://en.wikipedia.org/wiki/Software_design_description) was created to help manage the development of Nodezator ([GitHub repo](https://github.com/IndiePython/nodezator) | [website](https://nodezator.com)) for both its maintainer (me, Kennedy R. S. Guerra) and other developers who desire to contribute code to the project. It aims to do that by offering detailed information on Nodezator's design, including its definition, goals, current and planned features/behaviour and also brief analyses of alternative software that offer further insight into design decisions made for Nodezator.
+
+
+## Table of contents
+
+1. Software design document for Nodezator/README (you are here)
+1. [Nodezator definition, usage and goals](ch-nodezator-definition-usage-goals.md)
+1. [The power of gamedev/games with Python and Nodezator's role](ch-power-gamedev-nodezator-role.md)
+1. [How Nodezator was designed]()
+1. [Current behaviour and features]()
+1. [Design challenges and additional info]()
+1. [Timeline and planned features]()
+1. [Alternatives to Nodezator]()
 
 
 ## Stakeholders
@@ -42,12 +54,3 @@ Finally, this document may also prove useful to other developers that want to le
 
 In conclusion, in order to be successful, this design document must effectively serve as a basis for Nodezator's development.
 
-
-
-## Table of contents
-
-1. [Nodezator definition, usage and goals](ch-nodezator-definition-usage-goals.md)
-1. [How Nodezator was designed]()
-1. [Current behaviour and features]()
-1. [Timeline and planned features]()
-1. [Alternatives to Nodezator]()
