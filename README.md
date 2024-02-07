@@ -11,14 +11,23 @@ This [software design document](https://en.wikipedia.org/wiki/Software_design_de
 
 ## Table of contents
 
+Chapters
+
 1. Software design document for Nodezator/README (you are here)
 1. [Nodezator definition, usage and goals](ch-nodezator-definition-usage-goals.md)
 1. [The power of gamedev/games with Python and Nodezator's role](ch-power-gamedev-nodezator-role.md)
-1. [How Nodezator was designed]()
-1. [Current behaviour and features]()
-1. [Design challenges and additional info]()
-1. [Timeline and planned features]()
-1. [Alternatives to Nodezator]()
+1. How Nodezator was designed
+1. [Nodezator features](ch-nodezator-features.md)
+1. Design challenges and additional info
+1. [Test-driven software development in Nodezator](ch-test-driven-software-development-nodezator.md)
+1. Timeline and planned features
+1. Alternatives to Nodezator
+
+Appendices
+
+<ol type="A">
+    <li><a href="apx-test-cases-system-testing/README.md">Test cases for system testing</a></li>
+</ol>
 
 
 ## Stakeholders

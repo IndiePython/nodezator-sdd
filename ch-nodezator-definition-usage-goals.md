@@ -1,5 +1,5 @@
 
-[← back to README/table of contents](README.md)
+[← back to table of contents](README.md)
 
 # Nodezator definition, usage and goals
 

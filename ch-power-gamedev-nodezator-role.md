@@ -1,5 +1,5 @@
 
-[← back to README/table of contents](README.md)
+[← back to table of contents](README.md)
 
 # The power of gamedev/games with Python and Nodezator's role
 
