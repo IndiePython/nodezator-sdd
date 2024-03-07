@@ -11,9 +11,15 @@ This [software design document](https://en.wikipedia.org/wiki/Software_design_de
 
 ## Table of contents
 
+Software design document for Nodezator/README (you are here)
+
+- Overview
+- Table of contents
+- Stakeholders
+- Context
+
 Chapters
 
-1. Software design document for Nodezator/README (you are here)
 1. [Nodezator definition, usage and goals](ch-nodezator-definition-usage-goals.md)
 1. [The power of gamedev/games with Python and Nodezator's role](ch-power-gamedev-nodezator-role.md)
 1. How Nodezator was designed
