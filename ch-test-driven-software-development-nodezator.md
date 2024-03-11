@@ -97,6 +97,6 @@ Such kind of non-functional requirement is something that we'd only be able to a
 
 Each requirement, regardless of its kind, should be tested by at least one test case. It is possible that a single test case may test more than one requirement, though.
 
-Test cases for system testing are documented in a dedicated appendix: [Test cases for system testing](apx-test-cases-system-testing/README.md).
+Test cases for system testing are documented in a dedicated repo: [Nodezator's system testing and its test cases](https://github.com/IndiePython/nodezator-system-testing).
 
 Tests from test cases are performed with help from automated GUI interactions, which are part of the playback feature presented on the chapter about [Nodezator features](ch-nodezator-features.md).Such automated GUI interactions helps support system testing, although system testing itself is not part of the playback feature (which is why it doesn't appear in the diagram).
