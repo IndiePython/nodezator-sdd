@@ -17,5 +17,4 @@ The main table below lists and links all existing test case files in use. If one
 
 | UID  | Title |
 | ---- | --- |
-| 0000 | --- |
-| 0001 | --- |
+| [0000](stc-0000.md) | Instantiate default objects using the popup menu |
